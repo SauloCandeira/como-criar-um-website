@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn CSS Properties</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="container flex items-center justify-between">
+            <a href="#" class='text-3xl font-bold'>IHK</a>
+            <ul class='space-x-8 flex items-center font-semibold'>
+                <li>
+                    <a href="#intro">Home</a>
+                </li>
+                <li>
+                    <a href="#roteiro">Roteiro</a>
+                </li>
+                <li>
+                    <a href="#embarque">Embarque</a>
+                </li>
+                <li>
+                    <a class='h-14 rounded-full border flex items-center border-current px-6' href="#login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Intro Section -->
+    <div id="intro" class='intro-section relative'>
+        <div class='intro-section-text'>
+            <h1 class='text-5xl font-bold mb-4'>Explore um novo mundo.</h1>
+            <p class="text-xl">Descubra um universo inexplorado, explore o mundo da programação e abra as portas para um futuro inovador.</p>
+        </div>
+        <div class='absolute left-0 flex justify-center bottom-0'><img src="img/mountain.png" class='mountain' alt="Mountain"></div>
+        <div class='absolute left-0 flex justify-center bottom-0 z-10 w-full pb-8'>
+            <button class='font-semibold flex flex-col justify-center items-center space-y-2'>
+                <img src="img/arrow-down.svg" alt="">
+                <span>Scroll down</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Roteiro Section -->
+    <div id="roteiro" class="bottom-section h-screen text-white pt-56">
+        <div class="bottom-section-text">
+            <h1 class="text-5xl font-bold mb-4">Roteiro da jornada</h1>
+            <p class="text-xl">Nesta jornada, você fará várias paradas, explorando cada etapa do processo.</p>
+        </div>
+    
+        <div class="container">
+            <div class="boxes flex items-center justify-between mt-24">
+                <div class="location-box">
+                    <img src="img/box1.png" alt="Box 1">
+                    <div class="text-xl font-semibold mt-5 mb-2">HTML</div>
+                    <p class="opacity-60">Sua jornada começa com HTML, o mapa que desenha as paisagens da web. Aqui, você molda a estrutura e dá forma ao seu destino digital.</p>
+                </div>
+                <div class="location-box">
+                    <img src="img/box2.png" alt="Box 2">
+                    <div class="text-xl font-semibold mt-5 mb-2">CSS</div>
+                    <p class="opacity-60">Em seguida, você chega ao reino do CSS, onde cores, formas e estilo ganham vida. É aqui que você adiciona beleza e elegância ao seu projeto.</p>
+                </div>
+                <div class="location-box">
+                    <img src="img/box3.png" alt="Box 3">
+                    <div class="text-xl font-semibold mt-5 mb-2">JavaScript</div>
+                    <p class="opacity-60">A aventura continua com JavaScript, onde você começa a interagir com o mundo ao seu redor. É aqui que a magia acontece e a dinâmica se revela.</p>
+                </div>
+                <div class="location-box">
+                    <img src="img/box4.png" alt="Box 4">
+                    <div class="text-xl font-semibold mt-5 mb-2">GitHub</div>
+                    <p class="opacity-60">Finalmente, você chega ao GitHub, o porto seguro onde todas as suas descobertas e criações são armazenadas, compartilhadas e colaboradas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Embarque Section -->
+    <div id="embarque" class="bottom-section h-screen text-white pt-56">
+        <div class="bottom-section-text">
+            <h1 class="text-5xl font-bold mb-4">Embarque</h1>
+            <p class="text-xl">Embarque nessa aventura com nosso pacote especial!</p>
+        </div>
+        
+        <div class="container mx-auto mt-24 max-w-md p-8 bg-gray-800 rounded-lg shadow-lg">
+            <div class="card-content text-center">
+                <img src="img/box1.png" alt="E-book e Videoaula" class="w-32 mx-auto mb-4">
+                <h2 class="text-3xl font-semibold mb-2">Pacote Completo</h2>
+                <p class="text-lg mb-6">Explore novos horizontes com nosso e-book e videoaulas. Prepare-se para uma jornada de aprendizado que levará suas habilidades para o próximo nível.</p>
+                <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300">Compre Agora</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
